@@ -98,9 +98,9 @@ optimal and tuning added nothing. Worth stating rather than hiding.
 | car | 0.98 | 0.93 | 0.95 | 86 |
 | van | 0.93 | 0.97 | 0.95 | 40 |
 
-43 of 44 buses and 39 of 40 vans identified correctly. All six errors sit in the car
-class, split evenly: three cars called buses, three called vans. That is exactly the
-friction the pairplot predicted, and it is small.
+162 of 170 correct. Eight errors in total, and six of them are cars: three called buses,
+three called vans. The remaining two are a single bus and a single van, both mistaken for
+cars. That is exactly the friction the pairplot predicted, and it is small.
 
 ## Part 2: unsupervised discovery
 
